@@ -2,21 +2,17 @@ import FilminLogo from "../assets/img/filminLogo.svg"
 export default function Header(){
 
     return(
-        <header style={styles.header}>
-            <img src={FilminLogo} alt="Filmin Logo" />
+        <header className=" bg-gradient-to-b from-black to-darkBlue w-full flex items-center">
+            <img className="w-16 h-16 ml-12"
+            src={FilminLogo} alt="Filmin Logo"/>
+            <nav className="ml-10">
+                <ul className="text-white text-xs flex gap-8">
+                    <li>Inicio</li>
+                    <li>Películas</li>
+                    <li>Series</li>
+                </ul>
+            </nav>
         </header>
     )
 }
 
-const styles = {
-    header: {
-      backgroundColor: '#060715',
-      width: '100%',
-      color: '#fff',
-      padding: '1rem',
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-
-    }
-  };
