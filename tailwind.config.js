@@ -8,7 +8,8 @@ export default {
     colors: {
       'black': '#000000',
       'white': "#ffffff",
-      'darkBlue': '#1F2937',
+      'grayBlue': '#0a0e1e',
+      'background': '#060612'
     }
   },
   plugins: [],
