@@ -1,6 +1,6 @@
 import Carrousel from './components/Carrousel/Carrousel';
 import Header from './components/Header/Header';
-
+import Footer from './components/Footer/Footer';
 function App() {
   
   return (
@@ -12,6 +12,7 @@ function App() {
       
      </section>
      <Carrousel />
+      <Footer />
     </>
 
 
