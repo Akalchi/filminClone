@@ -41,3 +41,6 @@
 .swiper-button-disabled {
   display: none;
 }
+.swiper-slide {
+  height: 552px;
+}

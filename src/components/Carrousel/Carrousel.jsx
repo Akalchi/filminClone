@@ -57,17 +57,18 @@ export default function Carrousel() {
 
     return (
         <div
-            className="swiper-container relative ml-0 mr-0 mt-0 mb-0 p-0"
+            className="swiper-container relative ml-12"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         >
 
-            <h2 className='pt-5 pb-6 pl-14 font-bold text-2xl'>El mejor cine reciente en exclusiva</h2>
+            <h2 className='pt-5 pb-6 font-bold text-2xl'>El mejor cine reciente en exclusiva</h2>
 
             <Swiper
                 ref={swiperRef}
                 slidesPerView={4}
                 allowTouchMove={false}
+                spaceBetween={16}
                 navigation={{
                     prevEl: '.swiper-button-prev',
                     nextEl: '.swiper-button-next',
@@ -77,8 +78,8 @@ export default function Carrousel() {
                 {films.map((film) => (
                     <SwiperSlide key={film.id}>
                         <img
-                            className="h-[552px] w-[276px] object-fill transition-transform transform hover:scale-105
-                            rounded ml-14"
+                            className="h-full w-full object-cover transition-transform transform hover:scale-105
+                            rounded"
                             src={`https://image.tmdb.org/t/p/w500${film.poster_path}`}
                             alt={film.title}
                         />
