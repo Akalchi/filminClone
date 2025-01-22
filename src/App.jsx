@@ -8,7 +8,7 @@ function App() {
      <Header />
      <section>
       
-      <h2 class="h-96 text-center">AAAAAAAAAAAA</h2>
+      <h2 className="h-96 text-center">AAAAAAAAAAAA</h2>
       
      </section>
      <Carrousel />
