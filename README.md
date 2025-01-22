@@ -49,8 +49,8 @@ Insert gif or link to demo
 ![Canva](https://img.shields.io/badge/-Canva-00C4CC?logo=canva&logoColor=white&style=flat)
 ![Jira](https://img.shields.io/badge/-Jira-0052CC?logo=jira&logoColor=white&style=flat)
 ![ChatGPT](https://img.shields.io/badge/-ChatGPT-10A37F?logo=openai&logoColor=white&style=flat)
-
-## Installation
+ 
+## Installation ⏳
 
 Install my-project with npm
 
@@ -60,9 +60,9 @@ Install my-project with npm
 ```
    
 
-## API Reference
+## API Reference ⁇
 
-#### Get all items
+#### Get all items ⁇
 
 ```http
   GET /api/items
@@ -72,7 +72,7 @@ Install my-project with npm
 | :-------- | :------- | :------------------------- |
 | `api_key` | `string` | **Required**. Your API key |
 
-#### Get item
+#### Get item ⁇
 
 ```http
   GET /api/items/${id}
@@ -85,35 +85,16 @@ Install my-project with npm
 #### add(num1, num2)
 
 Takes two numbers and returns the sum.
-
-
-
-
-
-
-## 🛠 Skills
-React
-Tailwind 
-HTML
-CSS
-
  
-## Lessons Learned
+## Lessons Learned ⏳
 
 What did you learn while building this project? What challenges did you face and how did you overcome them?
 
-
-## License
+## License ⏳
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-
 ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
-
-## Optimizations
-
-What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
 
 
 ## Related
@@ -123,16 +104,16 @@ Here are some related projects
 [Awesome README](https://github.com/matiassingers/awesome-readme)
 
 
-## Roadmap
+## Roadmap ⏳
 
 - Additional browser support
 
 - Add more integrations
 
 
-## Run Locally
+## Run Locally ⏳
 
-Clone the project
+Clone the project 
 
 ```bash
   git clone https://link-to-project
