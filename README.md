@@ -19,7 +19,7 @@
 
 Insert gif or link to demo
 
-[![Jira](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://jesusenjamio.atlassian.net/jira/core/projects/GTMS/board)
+[![Jira](https://img.shields.io/badge/-Atlassian-0052CC?logo=atlassian&logoColor=white&style=flat)](https://jesusenjamio.atlassian.net/jira/core/projects/GTMS/board)
 
 ## Documentation
 - [Jira](https://jesusenjamio.atlassian.net/jira/core/projects/GTMS/board)
