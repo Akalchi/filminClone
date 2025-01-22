@@ -38,7 +38,7 @@ Insert gif or link to demo
 ![Obsidian](https://img.shields.io/badge/-Obsidian-483699?logo=data:image/png;base64,<base64-encoded-image>&logoColor=white&style=flat)
 ![Trello](https://img.shields.io/badge/-Trello-0052CC?logo=trello&logoColor=white&style=flat)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=flat)
-![Git](https://img.shields.io/badge/-Git-000000?logo=git&logoColor=orange&style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge)  
 ![Brave](https://img.shields.io/badge/-Brave-FB542B?logo=brave&logoColor=white&style=flat)
 ![Google](https://img.shields.io/badge/-Google-4285F4?logo=google&logoColor=white&style=flat)
 ![Discord](https://img.shields.io/badge/-Discord-5865F2?logo=discord&logoColor=white&style=flat)
