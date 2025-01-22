@@ -14,7 +14,6 @@
 - [Alberto Vicente](https://github.com/berto9675)
 - [Alejandra Fernández](https://github.com/Akalchi)
 
-
 ## Demo
 
 Insert gif or link to demo
@@ -27,6 +26,7 @@ Insert gif or link to demo
 
  ## &nbsp;Tech Stack:
  
+
 ![HTML](https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&style=flat)
 ![CSS](https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white&style=flat)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
@@ -45,6 +45,10 @@ Insert gif or link to demo
 ![Slack](https://img.shields.io/badge/-Slack-4A154B?logo=slack&logoColor=white&style=flat)
 ![Swiper](https://img.shields.io/badge/-Swiper-6332F6?logo=swiper&logoColor=white&style=flat)
 ![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white&style=flat)
+![Lucidchart](https://img.shields.io/badge/-Lucidchart-5B5D5D?logo=lucidchart&logoColor=white&style=flat)
+![Canva](https://img.shields.io/badge/-Canva-00C4CC?logo=canva&logoColor=white&style=flat)
+![Jira](https://img.shields.io/badge/-Jira-0052CC?logo=jira&logoColor=white&style=flat)
+![ChatGPT](https://img.shields.io/badge/-ChatGPT-10A37F?logo=openai&logoColor=white&style=flat)
 
 ## API Reference
 
