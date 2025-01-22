@@ -19,8 +19,6 @@
 
 Insert gif or link to demo
 
-[![Jira](https://img.shields.io/badge/-Atlassian-0052CC?logo=atlassian&logoColor=white&style=flat)](https://jesusenjamio.atlassian.net/jira/core/projects/GTMS/board)
-
 ## Documentation
 - [![Jira](https://img.shields.io/badge/-Atlassian-0052CC?logo=atlassian&logoColor=white&style=flat)](https://jesusenjamio.atlassian.net/jira/core/projects/GTMS/board)
 [![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white&style=flat)](https://www.figma.com/design/563btG1aZfBqVuz5EeGwEW/CLON-FILMIN?node-id=0-1&p=f&t=ZkYxLDURlvCPhQSq-0)
