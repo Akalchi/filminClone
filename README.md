@@ -34,6 +34,7 @@ Insert gif or link to demo
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat)
 ![Maven](https://img.shields.io/badge/-Maven-C71A36?logo=apache-maven&logoColor=white&style=flat)
 ![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-007ACC?logo=visual-studio-code&logoColor=white&style=flat)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white&style=flat)  
 ![Atlassian](https://img.shields.io/badge/-Atlassian-0052CC?logo=atlassian&logoColor=white&style=flat)
 ![Obsidian](https://img.shields.io/badge/-Obsidian-483699?logo=data:image/png;base64,<base64-encoded-image>&logoColor=white&style=flat)
 ![Trello](https://img.shields.io/badge/-Trello-0052CC?logo=trello&logoColor=white&style=flat)
