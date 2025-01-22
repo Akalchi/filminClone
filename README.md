@@ -50,6 +50,16 @@ Insert gif or link to demo
 ![Jira](https://img.shields.io/badge/-Jira-0052CC?logo=jira&logoColor=white&style=flat)
 ![ChatGPT](https://img.shields.io/badge/-ChatGPT-10A37F?logo=openai&logoColor=white&style=flat)
 
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+   
+
 ## API Reference
 
 #### Get all items
@@ -87,15 +97,7 @@ Tailwind
 HTML
 CSS
 
-## Installation
-
-Install my-project with npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
-    
+ 
 ## Lessons Learned
 
 What did you learn while building this project? What challenges did you face and how did you overcome them?
