@@ -8,19 +8,18 @@ export default function Footer(){
 
 
     return(
-        <footer className=" bg-grayBlue text-white w-full flex justify-between items-center p-4 mt-5 h-16">
-            <div className="flex flex-row gap-3"> 
-                <p>Reactvolutionaries</p>
-                <a className="flex gap-4 " href="https://github.com/Algama17"><img className="w-8 h-8 rounded-full" src={Albphoto} alt="Github Alb"/></a>
-                <a className="flex gap-4 " href="https://github.com/Akalchi "><img className="w-8 h-8 rounded-full" src={Alephoto} alt="Github Ale"/></a>
-                <a className="flex gap-4 " href="https://github.com/emmalanza"><img className="w-8 h-8 rounded-full" src={Emmphoto} alt="Github Emm"/></a>
-                <a className="flex gap-4 " href="https://github.com/JesusEnjamio"><img className="w-8 h-8 rounded-full" src={Jesphoto} alt="Github Jes"/></a>
-                <a className="flex gap-4 " href="https://github.com/karinalorenzo"><img className="w-8 h-8 rounded-full" src={Karphoto} alt="Github Kar"/></a>
-                <a className="flex gap-4 " href="https://github.com/berto9675"><img className="w-8 h-8 rounded-full" src={Vicphoto} alt="Github Vic"/></a>
-                
+        <footer className=" w-full flex justify-between items-center mt-8 p-10 h-32">
+            <div className="flex items-center gap-3"> 
+                <p className="font-light text-xl">ReactVolutionaries</p>
+                <a className="flex gap-4 " href="https://github.com/Algama17" target="_blank"><img className="w-10 h-10 object-cover rounded-full transition-transform transform hover:scale-110" src={Albphoto} alt="Github Alb"/></a>
+                <a className="flex gap-4 " href="https://github.com/Akalchi" target="_blank"><img className="w-10 h-10 object-cover rounded-full transition-transform transform hover:scale-110"  src={Alephoto} alt="Github Ale"/></a>
+                <a className="flex gap-4 " href="https://github.com/emmalanza" target="_blank"><img className="w-10 h-10 object-cover rounded-full transition-transform transform hover:scale-110"  src={Emmphoto} alt="Github Emm"/></a>
+                <a className="flex gap-4 " href="https://github.com/JesusEnjamio" target="_blank"><img className="w-10 h-10 object-cover rounded-full transition-transform transform hover:scale-110"  src={Jesphoto} alt="Github Jes"/></a>
+                <a className="flex gap-4 " href="https://github.com/karinalorenzo" target="_blank"><img className="w-10 h-10 object-cover rounded-full transition-transform transform hover:scale-105"  src={Karphoto} alt="Github Kar"/></a>
+                <a className="flex gap-4 " href="https://github.com/berto9675" target="_blank"><img className="w-10 h-10 object-cover rounded-full transition-transform transform hover:scale-110" src={Vicphoto} alt="Github Vic"/></a>     
             </div>
             <div>
-                <p>Todos los derechos reservados ©</p>
+                <p>© Todos los derechos reservados</p>
             </div>
         </footer>
     )
