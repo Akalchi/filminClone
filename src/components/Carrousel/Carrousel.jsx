@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import 'swiper/css';
@@ -13,6 +13,16 @@ export default function Carrousel({list, listTitle, swiperId}) {
     const swiperRef = useRef(null);
     const films = list;
     const title = listTitle;
+
+    useEffect(() => {
+        const swiperInstance = swiperRef.current?.swiper;
+        if (swiperInstance) {
+          swiperInstance.params.navigation.prevEl = `.swiper-button-prev-${swiperId}`;
+          swiperInstance.params.navigation.nextEl = `.swiper-button-next-${swiperId}`;
+          swiperInstance.navigation.init();
+          swiperInstance.navigation.update();
+        }
+      }, [swiperId]);
     
     const handleButtonVisibility = () => {
         const swiper = swiperRef.current?.swiper;
@@ -46,10 +56,7 @@ export default function Carrousel({list, listTitle, swiperId}) {
                 slidesPerView={4}
                 allowTouchMove={false}
                 spaceBetween={16}
-                navigation={{
-                    prevEl: `swiper-button-prev-${swiperId}`,
-                    nextEl: `swiper-button-next-${swiperId}`,
-                }}
+                navigation={true}
                 modules={[Navigation]}
             >
                 {films.map((film) => (
