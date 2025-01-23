@@ -56,7 +56,7 @@
 
 [The Movie Database API](https://github.com/celiagarridoherrera/filminClon/tree/dev?tab=readme-ov-file)
 
-## Lesson Learned ⏳
+## Lesson Learned 
 
 - We have learned to highlight the work and the skills of our team
   
