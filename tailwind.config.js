@@ -9,7 +9,7 @@ export default {
       'black': '#000000',
       'white': "#ffffff",
       'grayBlue': '#0a0e1e',
-      'background': '#060612'
+      'filminGreen': '#3dfba5'
     }
   },
   plugins: [],
