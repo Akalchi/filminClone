@@ -4,6 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import './Carrousel.css';
 import { Navigation } from "swiper/modules";
+import { getMoviesByGenre, getPopularFilms } from '../../services/apiServices.js';
 
 export default function Carrousel() {
     const [showNav, setShowNav] = useState(false);
@@ -11,27 +12,12 @@ export default function Carrousel() {
     const [nextIsDisabled, setnextIsDisabled] = useState(false);
     const [films, setFilms] = useState([]); 
     const swiperRef = useRef(null);
-
-    const API_KEY = 'd2ca0f1d4424de282a51abb79cdb2ed1';
-    const BASE_URL = 'https://api.themoviedb.org/3/movie/popular';
-
-    async function getPopularFilms() {
-        try {
-            const response = await fetch(`${BASE_URL}?api_key=${API_KEY}&language=es-ES&page=1`);
-            if (!response.ok) {
-                throw new Error('No se pudo obtener las películas populares');
-            }
-            const data = await response.json();
-            return data.results.slice(0, 10);
-        } catch (error) {
-            console.error('Error al obtener las películas:', error);
-            return [];
-        }
-    }
+   
 
     useEffect(() => {
         async function fetchFilms() {
             const filmsData = await getPopularFilms();
+            const filsmCategories = await getMoviesByGenre(12);
             setFilms(filmsData); // Actualiza el estado con las películas obtenidas
         }
         fetchFilms();
