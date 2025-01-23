@@ -1,7 +1,5 @@
-<<<<<<< HEAD
+
 import { default as Carrousel } from './components/Carrousel/Carrousel';
-=======
->>>>>>> footerv1
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Carrousel from './components/Carrousel/Carrousel';
@@ -10,17 +8,6 @@ import { useState, useEffect } from 'react';
 import { getPopularFilms, getFilmsByGenre } from './services/apiServices';
 
 function App() {
-<<<<<<< HEAD
-=======
-  
-  return (
-    <>
-     <Header />
-     <Hero/>
-     <Carrousel />
-      <Footer />
-    </>
->>>>>>> footerv1
 
 const categories = [
   { id: 16, title: "Animación" },
@@ -61,6 +48,7 @@ useEffect(() => {
 return (
   <>
     <Header />
+    <Hero />
     <Carrousel key={"popularFilms"} swiperId="popularFilms" list={data.popularFilmList} listTitle={"Las películas más populares"}/>
     {data.categoryFilmLists.map((category) => (
       <Carrousel key={category.id} swiperId={category.id} list={category.films} listTitle={category.title} />
