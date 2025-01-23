@@ -1,7 +1,7 @@
 
 # Hi Everyone! We're the Reactvolutionaries team!  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> 
 
-## We have cloned the Filmin web site based os requirements by our client.
+## We have cloned the Filmin web site based on requirements by our client
 
 ## Status: in progresss ⏳
 
@@ -12,7 +12,7 @@
     - Atractive Figma-based design
     - Key features like a main carrousel and detail views interacting with movies
 
-## Authors
+## Our Team
 
 - [Emma Lanza](https://github.com/emmalanza)
 - [Karina Lorenzo](https://github.com/karinalorenzo)
