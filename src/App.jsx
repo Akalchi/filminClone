@@ -2,7 +2,6 @@
 import { default as Carrousel } from './components/Carrousel/Carrousel';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
-import Carrousel from './components/Carrousel/Carrousel';
 import Footer from './components/Footer/Footer';
 import { useState, useEffect } from 'react';
 import { getPopularFilms, getFilmsByGenre } from './services/apiServices';
