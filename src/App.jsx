@@ -1,10 +1,26 @@
+<<<<<<< HEAD
 import { default as Carrousel } from './components/Carrousel/Carrousel';
+=======
+>>>>>>> footerv1
 import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import Carrousel from './components/Carrousel/Carrousel';
 import Footer from './components/Footer/Footer';
 import { useState, useEffect } from 'react';
 import { getPopularFilms, getFilmsByGenre } from './services/apiServices';
 
 function App() {
+<<<<<<< HEAD
+=======
+  
+  return (
+    <>
+     <Header />
+     <Hero/>
+     <Carrousel />
+      <Footer />
+    </>
+>>>>>>> footerv1
 
 const categories = [
   { id: 16, title: "Animación" },
