@@ -42,5 +42,6 @@
   display: none;
 }
 .swiper-slide {
-  height: 552px;
+  width: 342px;
+  height: 500px;
 }
