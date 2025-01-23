@@ -1,9 +1,16 @@
 
 # Hi Everyone! We're the Reactvolutionaries team!  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> 
 
-## We have create a clone of the Filmin page
+## We have cloned the Filmin web site based os requirements by our client.
 
 ## Status: in progresss ⏳
+
+## Requeriments 
+- Develop a Single Page Application with React that offer us:
+
+    - A movie carrousel organized by lists
+    - Atractive Figma-based design
+    - Key features like a main carrousel and detail views interacting with movies
 
 ## Authors
 
@@ -14,25 +21,20 @@
 - [Alberto Vicente](https://github.com/berto9675)
 - [Alejandra Fernández](https://github.com/Akalchi)
 
-## Demo
-
-Insert gif or link to demo
-
 ## Documentation
+
 - [![Jira](https://img.shields.io/badge/-Jira-0052CC?logo=jira&logoColor=white&style=flat)](https://jesusenjamio.atlassian.net/jira/core/projects/GTMS/board)
 - [![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white&style=flat)](https://www.figma.com/design/563btG1aZfBqVuz5EeGwEW/CLON-FILMIN?node-id=0-1&p=f&t=ZkYxLDURlvCPhQSq-0)
 - [![Userflows](https://img.shields.io/badge/-Lucidchart-5B5D5D?logo=lucidchart&logoColor=white&style=flat)](https://lucid.app/lucidchart/205d7641-21ce-4592-8c5c-9f929cbad134/edit?page=0_0&invitationId=inv_045b2715-511a-4aec-a880-eaa1992f5b0b#)
 - [![Userstories](https://img.shields.io/badge/-Canva-00C4CC?logo=canva&logoColor=white&style=flat)](https://www.canva.com/design/DAGc6KI4mv8/EGSfCAW6HFgVCgSxBKEgLA/view?utm_content=DAGc6KI4mv8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h115e5b67ec)
   
- ## &nbsp;Tech Stack:
-
-
+ ## &nbsp;Tech Stack
+ 
 ![HTML](https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&style=flat) 
 ![CSS](https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white&style=flat)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)\
 ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat)
-![Maven](https://img.shields.io/badge/-Maven-C71A36?logo=apache-maven&logoColor=white&style=flat)
 ![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-007ACC?logo=visual-studio-code&logoColor=white&style=flat)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=flat)
 ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat)  
@@ -48,96 +50,74 @@ Insert gif or link to demo
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white&style=flat)  
 ![Atlassian](https://img.shields.io/badge/-Atlassian-0052CC?logo=atlassian&logoColor=white&style=flat)
 ![Obsidian](https://img.shields.io/badge/-Obsidian-483699?logo=data:image/png;base64,<base64-encoded-image>&logoColor=white&style=flat)
-![Trello](https://img.shields.io/badge/-Trello-0052CC?logo=trello&logoColor=white&style=flat)
 ![ChatGPT](https://img.shields.io/badge/-ChatGPT-10A37F?logo=openai&logoColor=white&style=flat)
- 
-## Installation ⏳
 
-Install my-project with npm
+## API Reference 
 
-```bash
-  npm install my-project
-  cd my-project
-```
-   
+[The Movie Database API](https://github.com/celiagarridoherrera/filminClon/tree/dev?tab=readme-ov-file)
 
-## API Reference ⁇
+## Lesson Learned ⏳
 
-#### Get all items ⁇
+- We have learned to highlight the work and the skills of our team
+  
+## License 
 
-```http
-  GET /api/items
-```
+## Installation 
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+[![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat)](https://nodejs.org/en/download)
+[![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat)](https://es.react.dev/)
 
-#### Get item ⁇
+## Run Locally 
 
-```http
-  GET /api/items/${id}
-```
+Clone the project ⤵️
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+Make sure you are on the correct place for clone the project. Ej.: your Desktop.
 
-#### add(num1, num2)
+## In your terminal
 
-Takes two numbers and returns the sum.
- 
-## Lessons Learned ⏳
-
-What did you learn while building this project? What challenges did you face and how did you overcome them?
-
-## License ⏳
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
-
-## Related
-
-Here are some related projects
-
-[Awesome README](https://github.com/matiassingers/awesome-readme)
-
-
-## Roadmap ⏳
-
-- Additional browser support
-
-- Add more integrations
-
-
-## Run Locally ⏳
-
-Clone the project 
+For Windows
 
 ```bash
-  git clone https://link-to-project
+  C:/root/when/you/want/the/reposotorie
+```
+For Mac
+
+```bash
+  user-@Nameofyour-Mac ~ %
 ```
 
-Go to the project directory
+1- Create a new file:
+
+```bash
+  mkdir my-project
+```
+
+2- Go to the project directory
 
 ```bash
   cd my-project
 ```
+3- Clone the repo
 
-Install dependencies
+```bash
+  git clone https://github.com/Akalchi/filminClone
+```
+4- Open the project in Vistual Studio Code or your prefer code editor
+
+5- Open the Terminal of your code editor
+
+6- Install the project dependencies
 
 ```bash
   npm install
 ```
-
 Start the server
 
 ```bash
-  npm run start
+  npm run dev
 ```
+7- Enjoy the experience 🚀
 
+## Result
 
-
-
+Insert gif or link to demo
