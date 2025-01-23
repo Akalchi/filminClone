@@ -1,28 +1,19 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import './Carrousel.css';
-import { Navigation } from "swiper/modules";
-import { getMoviesByGenre, getPopularFilms } from '../../services/apiServices.js';
 
-export default function Carrousel() {
+
+export default function Carrousel({list, listTitle, swiperId}) {
     const [showNav, setShowNav] = useState(false);
     const [prevIsDisabled, setprevIsDisabled] = useState(false);
     const [nextIsDisabled, setnextIsDisabled] = useState(false);
-    const [films, setFilms] = useState([]); 
     const swiperRef = useRef(null);
-   
-
-    useEffect(() => {
-        async function fetchFilms() {
-            const filmsData = await getPopularFilms();
-            const filsmCategories = await getMoviesByGenre(12);
-            setFilms(filmsData); // Actualiza el estado con las películas obtenidas
-        }
-        fetchFilms();
-    }, []); 
-
+    const films = list;
+    const title = listTitle;
+    
     const handleButtonVisibility = () => {
         const swiper = swiperRef.current?.swiper;
         if (swiper) {
@@ -48,7 +39,7 @@ export default function Carrousel() {
             onMouseLeave={handleMouseLeave}
         >
 
-            <h2 className='pt-5 pb-6 font-bold text-2xl'>El mejor cine reciente en exclusiva</h2>
+            <h2 className='pt-5 pb-6 font-bold text-2xl'>{title}</h2>
 
             <Swiper
                 ref={swiperRef}
@@ -56,27 +47,27 @@ export default function Carrousel() {
                 allowTouchMove={false}
                 spaceBetween={16}
                 navigation={{
-                    prevEl: '.swiper-button-prev',
-                    nextEl: '.swiper-button-next',
+                    prevEl: `swiper-button-prev-${swiperId}`,
+                    nextEl: `swiper-button-next-${swiperId}`,
                 }}
                 modules={[Navigation]}
             >
                 {films.map((film) => (
                     <SwiperSlide key={film.id}>
                         <img
-                            className="h-full w-full object-cover transition-transform transform hover:scale-105
+                            className="h-full w-full object-fill transition-transform transform hover:scale-105
                             rounded"
-                            src={`https://image.tmdb.org/t/p/w500${film.poster_path}`}
+                            src={`https://image.tmdb.org/t/p/w342${film.poster}`}
                             alt={film.title}
                         />
                     </SwiperSlide>
                 ))}
             </Swiper>
             <div
-                className={`swiper-button-prev ${showNav ? 'swiper-button-visible' : 'swiper-button-hidden'} ${prevIsDisabled ? 'swiper-button-disabled' : ''}`}
+                className={`swiper-button-prev swiper-button-prev-${swiperId} ${showNav ? 'swiper-button-visible' : 'swiper-button-hidden'} ${prevIsDisabled ? 'swiper-button-disabled' : ''}`}
             />
             <div
-                className={`swiper-button-next ${showNav ? 'swiper-button-visible' : 'swiper-button-hidden'} ${nextIsDisabled ? 'swiper-button-disabled' : ''}`}
+                className={`swiper-button-next swiper-button-next-${swiperId} ${showNav ? 'swiper-button-visible' : 'swiper-button-hidden'} ${nextIsDisabled ? 'swiper-button-disabled' : ''}`}
             />
         </div>
     );
