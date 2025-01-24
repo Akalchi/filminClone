@@ -41,7 +41,36 @@
 .swiper-button-disabled {
   display: none;
 }
+
 .swiper-slide {
-  width: 342px;
-  height: 500px;
+  width: 100%; 
+  height: auto;
+}
+
+@media (min-width: 1280px) {
+  .swiper-slide {
+    width: 342px;
+    height: 500px; 
+  }
+}
+
+@media (max-width: 1024px) {
+  .swiper-slide {
+    width: 75%; 
+    height: auto; 
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper-slide {
+    width: 90%; 
+    height: auto; 
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper-slide {
+    width: 100%; 
+    height: auto; 
+  }
 }

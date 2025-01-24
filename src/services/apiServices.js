@@ -1,4 +1,5 @@
-import Film from "../models/film.js";
+import MediaItem from "../models/mediaItem.js";
+
 
 const API_KEY = import.meta.env.VITE_API_KEY;
 const BASE_URL = 'https://api.themoviedb.org/3';
@@ -12,11 +13,11 @@ export async function getPopularFilms() {
         }
         const data = await response.json();
         let results = data.results.slice(0, 15);
-        const films = results.map((film) => new Film(film.id, film.title, film.poster_path));
+        const films = results.map((film) => new MediaItem(film.id, film.title, film.poster_path));
         return films;
     } catch (error) {
         console.error('Error al obtener las películas:', error);
-        return [];
+        throw error;
     }
 }
 
@@ -28,7 +29,7 @@ export async function getFilmsByGenre (genreId)  {
     }
     const data = await response.json();
     let results = data.results.slice(0, 15);
-    const films = results.map((film) => new Film(film.id, film.title, film.poster_path));
+    const films = results.map((film) => new MediaItem(film.id, film.title, film.poster_path));
     return films;
 
   } catch (error) {
@@ -36,4 +37,25 @@ export async function getFilmsByGenre (genreId)  {
     throw error;
   }
 }; 
+
+export async function getTopRatedList(url, type) {
+  try {
+    const response = await fetch(`${url}?api_key=${API_KEY}&language=es-ES&page=1`);
+    if (!response.ok) {
+      throw new Error('No se pudo obtener las películas populares');
+    }
+    const data = await response.json();
+    let results = data.results.slice(0, 16);
+    const mediaItems = results.map((mediaItem) => {
+      const title = type === 'film' ? mediaItem.title : mediaItem.name; //TODO: sndfkjefn
+      return new MediaItem(mediaItem.id, title, mediaItem.poster_path, mediaItem.vote_average);
+    });    
+    return mediaItems;
+  } catch (error) {
+    console.error('Error al obtener las películas:', error);
+    throw error;
+  }
+};
+
+
 
