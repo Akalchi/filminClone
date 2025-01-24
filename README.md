@@ -127,7 +127,4 @@ Start the server
 7- Enjoy the experience 🚀
 
 ## Result
-![Demo](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmdoNGNnY2lxMTcyOXJyYTMyMHY3ZzVlNXN2MHpwNzRjbzJqa3UzNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PvXliIoL0YopmxrSD7/giphy.gif)
-
-
-
+![Descripción del GIF](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXdlYW84Y3F1NWYwcmN5czFzMmR3MWdoY3phY2xuc3Q2cnp0eTk1cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PvXliIoL0YopmxrSD7/giphy.gif)
