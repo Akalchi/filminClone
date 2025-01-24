@@ -11,6 +11,7 @@
     - A movie carrousel organized by lists
     - Atractive Figma-based design
     - Key features like a main carrousel and detail views interacting with movies
+    - Navigation from one page to another
 
 ## Our Team
 - [Emma Lanza](https://github.com/emmalanza)
@@ -21,8 +22,8 @@
 - [Alejandra Fernández](https://github.com/Akalchi)
 
 ## Required documentation 
-- [![Jira](https://img.shields.io/badge/-Jira-0052CC?logo=jira&logoColor=white&style=flat)](https://jesusenjamio.atlassian.net/jira/core/projects/GTMS/board)
-- [![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white&style=flat)](https://www.figma.com/design/563btG1aZfBqVuz5EeGwEW/CLON-FILMIN?node-id=0-1&p=f&t=ZkYxLDURlvCPhQSq-0)
+- [![Organization](https://img.shields.io/badge/-Jira-0052CC?logo=jira&logoColor=white&style=flat)](https://jesusenjamio.atlassian.net/jira/core/projects/GTMS/board)
+- [![Breafing](https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white&style=flat)](https://www.figma.com/design/563btG1aZfBqVuz5EeGwEW/CLON-FILMIN?node-id=0-1&p=f&t=ZkYxLDURlvCPhQSq-0)
 - [![Userflows](https://img.shields.io/badge/-Lucidchart-5B5D5D?logo=lucidchart&logoColor=white&style=flat)](https://lucid.app/lucidchart/205d7641-21ce-4592-8c5c-9f929cbad134/edit?page=0_0&invitationId=inv_045b2715-511a-4aec-a880-eaa1992f5b0b#)
 - [![Userstories](https://img.shields.io/badge/-Canva-00C4CC?logo=canva&logoColor=white&style=flat)](https://www.canva.com/design/DAGc6KI4mv8/EGSfCAW6HFgVCgSxBKEgLA/view?utm_content=DAGc6KI4mv8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h115e5b67ec)
 
@@ -51,7 +52,7 @@
 ![Jira](https://img.shields.io/badge/-Jira-0052CC?logo=jira&logoColor=white&style=flat)
 ![Obsidian](https://img.shields.io/badge/-Obsidian-483699?logo=data:image/png;base64,<base64-encoded-image>&logoColor=white&style=flat)
 
- ### Comunitation
+ ### Comunication
 ![Discord](https://img.shields.io/badge/-Discord-5865F2?logo=discord&logoColor=white&style=flat)
 ![Slack](https://img.shields.io/badge/-Slack-4A154B?logo=slack&logoColor=white&style=flat)
 
@@ -61,6 +62,9 @@
 
 ### AI
 ![ChatGPT](https://img.shields.io/badge/-ChatGPT-10A37F?logo=openai&logoColor=white&style=flat)
+![Copilot](https://img.shields.io/badge/-Copilot-0078D4?style=flat&logo=microsoft&logoColor=white)
+
+
 
 ### API Reference
 [The Movie Database API](https://github.com/celiagarridoherrera/filminClon/tree/dev?tab=readme-ov-file)
