@@ -6,7 +6,7 @@
 ## Status: in progresss ⏳
 
 ## Requeriments 
-- Develop a Single Page Application with React that offer us:
+- Develop an Application with React that offer us:
 
     - A movie carrousel organized by lists
     - Atractive Figma-based design
@@ -86,7 +86,7 @@ Make sure you are on the correct place for clone the project. Ej.: your Desktop.
 For Windows
 
 ```bash
-  C:/root/when/you/want/the/reposotorie
+  C:/root/where/you/want/the/repository
 ```
 For Mac
 
@@ -127,5 +127,5 @@ Start the server
 7- Enjoy the experience 🚀
 
 ## Result
-Insert gif or link to demo
+[Demo](https://imgur.com/GudfrUM)
 
