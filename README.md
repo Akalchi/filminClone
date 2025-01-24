@@ -127,4 +127,4 @@ Start the server
 7- Enjoy the experience 🚀
 
 ## Result
-![Demo](https://github.com/Akalchi/filminClone/blob/main/clonFilmin.gif?raw=true)
+![Demo](https://github.com/Akalchi/filminClone/releases/download/adding-demo-gif/clonFilmin.gif)
