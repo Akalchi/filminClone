@@ -56,8 +56,8 @@ export default function Carrousel({ list, listTitle, swiperId }) {
                 slidesPerView={4}
                 breakpoints={{
                     1280: { slidesPerView: 4 },
-                    1024: { slidesPerView: 3 },
-                    768: { slidesPerView: 2 },
+                    1024: { slidesPerView: 3 }, 
+                    768: { slidesPerView: 2 },  
                     480: { slidesPerView: 1 },
                 }}
                 allowTouchMove={false}
@@ -74,14 +74,19 @@ export default function Carrousel({ list, listTitle, swiperId }) {
                         />
                     </SwiperSlide>
                 ))}
+
+
+                <div
+                    className={`swiper-button-prev swiper-button-prev-${swiperId} ${showNav ? 'swiper-button-visible' : 'swiper-button-hidden'} ${prevIsDisabled ? 'swiper-button-disabled' : ''}`}
+                />
+                <div
+                    className={`swiper-button-next swiper-button-next-${swiperId} ${showNav ? 'swiper-button-visible' : 'swiper-button-hidden'} ${nextIsDisabled ? 'swiper-button-disabled' : ''}`}
+                />
+
+
             </Swiper>
 
-            <div
-                className={`swiper-button-prev swiper-button-prev-${swiperId} ${showNav ? 'swiper-button-visible' : 'swiper-button-hidden'} ${prevIsDisabled ? 'swiper-button-disabled' : ''}`}
-            />
-            <div
-                className={`swiper-button-next swiper-button-next-${swiperId} ${showNav ? 'swiper-button-visible' : 'swiper-button-hidden'} ${nextIsDisabled ? 'swiper-button-disabled' : ''}`}
-            />
+            
         </div>
     );
 }

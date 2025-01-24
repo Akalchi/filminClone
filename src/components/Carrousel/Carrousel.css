@@ -1,8 +1,11 @@
+.swiper-container {
+  user-select: none;
+}
+
 .swiper-button-next,
 .swiper-button-prev {
-
   display: none;
-
+  user-select: none;
 }
 
 .swiper-button-visible {
@@ -49,28 +52,29 @@
 
 @media (min-width: 1280px) {
   .swiper-slide {
-    width: 342px;
-    height: 500px; 
+    width: calc((100% - (16px * 3)) / 4);
+    height: auto; /* Ajusta automáticamente según el contenido */
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) and (min-width: 1024px) {
   .swiper-slide {
-    width: 75%; 
-    height: auto; 
+    width: calc((100% - (16px * 2)) / 3);
+    height: auto;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .swiper-slide {
+    width: calc((100% - 16px) / 2); 
+    height: auto;
   }
 }
 
 @media (max-width: 768px) {
   .swiper-slide {
-    width: 90%; 
-    height: auto; 
+    width: 100%; 
+    height: auto;
   }
 }
 
-@media (max-width: 480px) {
-  .swiper-slide {
-    width: 100%; 
-    height: auto; 
-  }
-}
