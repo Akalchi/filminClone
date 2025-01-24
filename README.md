@@ -63,18 +63,16 @@
 ### AI
 ![ChatGPT](https://img.shields.io/badge/-ChatGPT-10A37F?logo=openai&logoColor=white&style=flat)
 ![Copilot](https://img.shields.io/badge/-Copilot-0078D4?style=flat&logo=microsoft&logoColor=white)
-
-
+  
+## Installation 
+[![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat)](https://nodejs.org/en/download)
+[![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat)](https://es.react.dev/)
 
 ### API Reference
 [The Movie Database API](https://github.com/celiagarridoherrera/filminClon/tree/dev?tab=readme-ov-file)
 
 ## Lesson Learned 
 - We have learned to highlight the work and the skills of our team
-  
-## Installation 
-[![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat)](https://nodejs.org/en/download)
-[![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat)](https://es.react.dev/)
 
 ## Run Locally 
 Clone the project ⤵️
@@ -110,20 +108,35 @@ For Mac
 ```bash
   git clone https://github.com/Akalchi/filminClone
 ```
+
 4- Open the project in Vistual Studio Code or your prefer code editor
 
-5- Open the Terminal of your code editor
+## Setup Instructions
 
-6- Install the project dependencies
+This project requires an API key to function properly. Without it, certain features will not work. To get started, follow these steps:
+
+1. **Create a `.env` file**:
+   In the root directory of the project, create a `.env` file.
+
+2. **Add your API Key**:
+   Inside the `.env` file, add VITE_API_KEY = `your api key here`
+
+3. **Where to get the API Key**:
+You can obtain the API key from TMDB API, sign up on [TMDB](https://www.themoviedb.org/) to get your key.
+
+Without the `.env` file and a valid API key, the project won't be able to fetch the necessary data and certain features may not function as expected.
+
+## Install the project dependencies
 
 ```bash
   npm install
 ```
-Start the server
+## Start the server
 
 ```bash
   npm run dev
 ```
+
 7- Enjoy the experience 🚀
 
 ## Result
