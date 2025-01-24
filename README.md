@@ -52,7 +52,7 @@
 ![Jira](https://img.shields.io/badge/-Jira-0052CC?logo=jira&logoColor=white&style=flat)
 ![Obsidian](https://img.shields.io/badge/-Obsidian-483699?logo=data:image/png;base64,<base64-encoded-image>&logoColor=white&style=flat)
 
- ### Comunitation
+ ### Comunication
 ![Discord](https://img.shields.io/badge/-Discord-5865F2?logo=discord&logoColor=white&style=flat)
 ![Slack](https://img.shields.io/badge/-Slack-4A154B?logo=slack&logoColor=white&style=flat)
 
@@ -62,6 +62,9 @@
 
 ### AI
 ![ChatGPT](https://img.shields.io/badge/-ChatGPT-10A37F?logo=openai&logoColor=white&style=flat)
+![Copilot](https://img.shields.io/badge/-Copilot-0078D4?style=flat&logo=microsoft&logoColor=white)
+
+
 
 ### API Reference
 [The Movie Database API](https://github.com/celiagarridoherrera/filminClon/tree/dev?tab=readme-ov-file)
